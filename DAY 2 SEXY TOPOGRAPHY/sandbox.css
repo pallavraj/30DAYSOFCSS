@@ -1,0 +1,43 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+/* select class by class name to make class shadow */
+.shadow-typo {
+  /* changing position relative means change its positon wrt to itself */
+  position: relative;
+  display: inline-block;
+  /* rem change size independent of parent */
+  font-size: 5rem;
+  color: #00b3b3;
+  /* change text to upper case */
+  text-transform: uppercase;
+  /* give shadow to text */
+  text-shadow: 3px 3px 0 #e7eef1, 8px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.threedee-typo {
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #f2395a;
+  /* webkit is just for browser compatibility */
+  /* skew change text or element angle of view it not change postion but rotate change it postion depend on origin */
+  -webkit-transform: skew(-5deg, -5deg) rotate(4deg);
+          transform: skew(-5deg, -5deg) rotate(4deg);
+          /* set the origin from where it transform that is rotate or skew or else can be left right center etc */
+          transform-origin: center center;
+  -webkit-transform-origin: center center;
+  text-shadow:  1px 1px #d10e31,
+                2px 2px #d10e31,
+                3px 3px #d10e31,
+                4px 4px #d10e31,
+                5px 5px #d10e31,
+                6px 6px #d10e31,
+                7px 7px #d10e31,
+                8px 8px #890920,
+                9px 9px #890920,
+                10px 10px #890920,
+                11px 11px 15px rgba(0, 0, 0, 0.5);
+
+}
